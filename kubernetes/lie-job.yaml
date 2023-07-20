@@ -3,7 +3,7 @@ kind: Job
 metadata:
   name: brxm-lucene-index-exporter
 spec:
-  ttlSecondsAfterFinished: 30
+  ttlSecondsAfterFinished: 50
   template:
     spec:
       containers:
